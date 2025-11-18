@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta name="description" content="Site interativo do Projeto SaúdeComunidade que visualiza a rede de apoio no bairro Riviera. Conecta Poder Público, Saúde e Inovação através de um diagrama dinâmico com mapa integrado.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Site interativo do Projeto SaúdeComunidade que visualiza a rede de apoio no bairro Riviera. Conecta Poder Público, Saúde e Inovação através de um diagrama dinâmico com mapa integrado.">
+    
     <title>Projeto SaúdeComunidade</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +22,7 @@
     </header>
 
     <main class="diagrama">
+        
         <div class="bloco principal" id="A">
             <h2>Projeto SaúdeComunidade</h2>
         </div>
@@ -28,7 +31,7 @@
             
             <div class="grupo">
                 <div class="bloco categoria" id="B">Poder Público</div>
-                <div class="sub-bloco" id="B1">Prefeitura de SP</div>
+                <div class="sub-bloco" id="B1">Prefeitura Municipal de SP</div>
                 <div class="sub-bloco" id="B2">GeoSampa</div>
             </div>
 
@@ -51,12 +54,13 @@
             </div>
 
             <div class="grupo">
-                <div class="bloco categoria" id="F">Local: Riviera</div>
+                <div class="bloco categoria" id="F">Local: Bairro - Riviera</div>
                 <div class="sub-bloco" id="F1">Centros Culturais</div>
+                <div class="sub-bloco" id="F2">Equipamentos da Prefeitura</div>
                 
                 <div class="mapa-container">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.689919737604!2d-46.765659!3d-23.689574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce52108660b079%3A0x582386d048582925!2sJardim%20Riviera%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                        src="https://maps.google.com/maps?q=Jardim%20Riviera%2C%20S%C3%A3o%20Paulo&t=&z=13&ie=UTF8&iwloc=&output=embed" 
                         width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
                     </iframe>
                 </div>
@@ -64,7 +68,8 @@
 
         </div>
     </main>
-<div id="meuModal" class="modal">
+
+    <div id="meuModal" class="modal">
         <div class="modal-conteudo">
             <span class="fechar">&times;</span>
             <h2 id="tituloModal">Título do Item</h2>
@@ -73,7 +78,6 @@
     </div>
 
     <script src="script.js"></script>
-</body>
-</html>
+
 </body>
 </html>
